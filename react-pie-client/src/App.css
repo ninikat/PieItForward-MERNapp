@@ -1,0 +1,93 @@
+body{
+  font-family: 'Special Elite', cursive;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-intro {
+  font-size: large;
+}
+.header_container{
+  display: flex;
+  height:130px;
+  justify-content: space-between;
+}
+.header_menu{
+  display:inline-flex;
+}
+.logo_text{
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.li_style{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer_style{
+  height:100px;
+  background-color: #651212;
+  text-align: center;
+  font-size:20px;
+  position:fixed;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.footer_text{
+  padding:30px;
+  margin-top: 0;
+  color:white;
+}
+.home_about{
+  font-size: 100px;
+  margin:30px;
+}
+
+.home_instructions{
+  font-size: 60px;
+  text-align: center;
+  padding:100px;
+}
+
+.instructions{
+  background-color: #AABAC4;
+  height:500px;
+}
+
+.menu_links{
+  color:#651212;
+  text-decoration: none;
+}
+.pizza_list{
+  list-style: none;
+}
+.slice_border{
+  border:10px;
+  border-style: dotted;
+  padding:10px;
+  margin:10px;
+}
+.pizza_description{
+  font-size: 30px;
+}
+.button_style{
+  height:50px;
+  background-color: #651212;
+  color:white;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
